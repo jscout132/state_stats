@@ -21,7 +21,7 @@ for bird in bird_list:
         continue
     else:
         state_bird_list.append(state.text)
-print(state_bird_list)
+# print(state_bird_list)
 # quick_facts = results.find_all("ul")
 # print(type(quick_facts))
 # c = 0
