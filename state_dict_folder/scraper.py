@@ -1,6 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-# from states import states
 
 url = 'https://www.50states.com/tools/thelist.htm'
 page = requests.get(url)
@@ -81,17 +80,9 @@ def gov_party_scrape():
         if gov_party != None:
             party_list.append(gov_party.text)
 
-    
     print(party_list)
-    # party_list = ['Democratic','Republican']
-    # gov_party_list = []
-    # for i in gov_td:
-    #     gov_party = i.find('a')
-    #     if gov_party != None: #and gov_party.text in party_list:
-    #         gov_party_list.append(gov_party.text)
 
-    # print(gov_party_list)
-gov_party_scrape()
+# gov_party_scrape()
 
 
 def state_population_scrape():
@@ -123,9 +114,7 @@ def state_population_scrape():
     # creating a list of just populations without state names, but still in alpha order
     population = [i for i in state_pop_sorted.values()]
     print(population)
-
 # state_population_scrape()
-
 
 def state_land_area_scrape():
     land_request = requests.get('https://statesymbolsusa.org/symbol-official-item/national-us/uncategorized/states-size')
@@ -154,6 +143,4 @@ def state_land_area_scrape():
 
     land_area = [i for i in land_area_sorted.values()]
     print(land_area)
-    
-
 # state_land_area_scrape()

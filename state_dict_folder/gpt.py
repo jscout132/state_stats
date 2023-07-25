@@ -1,8 +1,9 @@
 
 from state_dict import full_state_dictionary
-from main import abbs
-from states import state_bird_list, state_capitals, state_flowers, state_population, state_govs
-from states import state_gov_party, state_land_area
+# from state_dict_folder.states import state_bird_list, state_capitals, state_flowers, state_population, state_govs
+# from state_dict_folder.states import state_gov_party, state_land_area
+
+print(full_state_dictionary['AL'])
 
 
 def add_abbs(full_state_dictionary):
@@ -12,6 +13,15 @@ def add_abbs(full_state_dictionary):
     with open(file_path,'w') as file:
         file.write(str(full_state_dictionary))
 # add_abbs(full_state_dictionary)
+
+def add_lat(full_state_dictionary):
+    file_path = 'state_dict.py'
+    for k,v in full_state_dictionary.items():
+        v.update({'lat':'holder'})
+        v.update({'lon':'holder'})
+    with open(file_path,'w') as file:
+        file.write(str(full_state_dictionary))
+add_lat(full_state_dictionary)
 
 
 # adding state names to dictionary
@@ -80,6 +90,6 @@ def add_gov_party(full_state_dictionary, state_govs, state_gov_party, state_land
     with open(file_path,'a') as file:
         file.write(str(full_state_dictionary))
 
-add_gov_party(full_state_dictionary, state_govs, state_gov_party, state_land_area, state_population)
+#add_gov_party(full_state_dictionary, state_govs, state_gov_party, state_land_area, state_population)
 
 

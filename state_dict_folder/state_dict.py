@@ -8,6 +8,8 @@ full_state_dictionary = {
         "name": "Alabama",
         "population": "4,903,185",
         "gov_party": "Republican",
+        "lat": "32.377716",
+        "lon": "-86.300568",
     },
     "AK": {
         "bird": "Willow Ptarmigan",
@@ -18,6 +20,8 @@ full_state_dictionary = {
         "name": "Alaska",
         "population": "731,545",
         "gov_party": "Republican",
+        "lat": "58.301598",
+        "lon": "-134.420212",
     },
     "AZ": {
         "bird": "Cactus Wren",
@@ -28,6 +32,8 @@ full_state_dictionary = {
         "name": "Arizona",
         "population": "7,278,717",
         "gov_party": "Democratic",
+        "lat": "33.448143",
+        "lon": "-112.096962",
     },
     "AR": {
         "bird": "Northern Mockingbird",
@@ -38,6 +44,8 @@ full_state_dictionary = {
         "name": "Arkansas",
         "population": "3,017,804",
         "gov_party": "Republican",
+        "lat": "34.746613",
+        "lon": "-92.288986",
     },
     "CA": {
         "bird": "California Valley Quail",
@@ -48,6 +56,8 @@ full_state_dictionary = {
         "name": "California",
         "population": "39,512,223",
         "gov_party": "Democratic",
+        "lat": "38.576668",
+        "lon": "-121.493629",
     },
     "CO": {
         "bird": "Lark Bunting",
@@ -58,6 +68,8 @@ full_state_dictionary = {
         "name": "Colorado",
         "population": "5,758,736",
         "gov_party": "Democratic",
+        "lat": "39.739227",
+        "lon": "-104.984856",
     },
     "CT": {
         "bird": "American Robin",
@@ -68,6 +80,8 @@ full_state_dictionary = {
         "name": "Connecticut",
         "population": "3,565,287",
         "gov_party": "Democratic",
+        "lat": "41.764046",
+        "lon": "-72.682198",
     },
     "DE": {
         "bird": "Blue Hen Chicken",
@@ -78,6 +92,8 @@ full_state_dictionary = {
         "name": "Delaware",
         "population": "973,764",
         "gov_party": "Democratic",
+        "lat": "39.157307",
+        "lon": "-75.519722",
     },
     "FL": {
         "bird": "Mockingbird",
@@ -88,6 +104,8 @@ full_state_dictionary = {
         "name": "Florida",
         "population": "21,477,737",
         "gov_party": "Republican",
+        "lat": "30.438118",
+        "lon": "-84.281296",
     },
     "GA": {
         "bird": "Brown Thrasher",
@@ -98,6 +116,8 @@ full_state_dictionary = {
         "name": "Georgia",
         "population": "10,617,423",
         "gov_party": "Republican",
+        "lat": "33.749027",
+        "lon": "-84.388229",
     },
     "HI": {
         "bird": "Nene",
@@ -108,6 +128,8 @@ full_state_dictionary = {
         "name": "Hawaii",
         "population": "1,415,872",
         "gov_party": "Democratic",
+        "lat": "21.307442",
+        "lon": "-157.857376",
     },
     "ID": {
         "bird": "Mountain Bluebird",
@@ -118,6 +140,8 @@ full_state_dictionary = {
         "name": "Idaho",
         "population": "1,787,065",
         "gov_party": "Republican",
+        "lat": "43.617775",
+        "lon": "-116.199722",
     },
     "IL": {
         "bird": "Cardinal",
@@ -128,6 +152,8 @@ full_state_dictionary = {
         "name": "Illinois",
         "population": "12,671,821",
         "gov_party": "Democratic",
+        "lat": "39.798363",
+        "lon": "-89.654961",
     },
     "IN": {
         "bird": "Cardinal",
@@ -138,6 +164,8 @@ full_state_dictionary = {
         "name": "Indiana",
         "population": "6,732,219",
         "gov_party": "Republican",
+        "lat": "39.768623",
+        "lon": "-86.162643",
     },
     "IA": {
         "bird": "Eastern Goldfinch",
@@ -148,6 +176,8 @@ full_state_dictionary = {
         "name": "Iowa",
         "population": "3,155,070",
         "gov_party": "Republican",
+        "lat": "41.591087",
+        "lon": "-93.603729",
     },
     "KS": {
         "bird": "Western Meadowlark",
@@ -158,6 +188,8 @@ full_state_dictionary = {
         "name": "Kansas",
         "population": "2,913,314",
         "gov_party": "Democratic",
+        "lat": "39.048191",
+        "lon": "-95.677956",
     },
     "KY": {
         "bird": "Cardinal",
@@ -168,6 +200,8 @@ full_state_dictionary = {
         "name": "Kentucky",
         "population": "4,467,673",
         "gov_party": "Democratic",
+        "lat": "38.186722",
+        "lon": "-84.875374",
     },
     "LA": {
         "bird": "Eastern Brown Pelican",
@@ -178,6 +212,8 @@ full_state_dictionary = {
         "name": "Louisiana",
         "population": "4,648,794",
         "gov_party": "Democratic",
+        "lat": "30.457069",
+        "lon": "-91.187393",
     },
     "ME": {
         "bird": "Chickadee",
@@ -188,6 +224,8 @@ full_state_dictionary = {
         "name": "Maine",
         "population": "1,344,212",
         "gov_party": "Democratic",
+        "lat": "44.307167",
+        "lon": "-69.781693",
     },
     "MD": {
         "bird": "Baltimore Oriole",
@@ -198,6 +236,8 @@ full_state_dictionary = {
         "name": "Maryland",
         "population": "6,045,680",
         "gov_party": "Democratic",
+        "lat": "38.978764",
+        "lon": "-76.490936",
     },
     "MA": {
         "bird": "Chickadee",
@@ -208,6 +248,8 @@ full_state_dictionary = {
         "name": "Massachusetts",
         "population": "6,892,503",
         "gov_party": "Democratic",
+        "lat": "42.358162",
+        "lon": "-71.063698",
     },
     "MI": {
         "bird": "Robin",
@@ -218,6 +260,8 @@ full_state_dictionary = {
         "name": "Michigan",
         "population": "9,986,857",
         "gov_party": "Democratic",
+        "lat": "42.733635",
+        "lon": "-84.555328",
     },
     "MN": {
         "bird": "Common Loon",
@@ -228,6 +272,8 @@ full_state_dictionary = {
         "name": "Minnesota",
         "population": "5,639,632",
         "gov_party": "Democratic-Farmer-Labor",
+        "lat": "44.955097",
+        "lon": "-93.102211",
     },
     "MS": {
         "bird": "Mockingbird",
@@ -238,6 +284,8 @@ full_state_dictionary = {
         "name": "Mississippi",
         "population": "2,976,149",
         "gov_party": "Republican",
+        "lat": "32.303848",
+        "lon": "-90.182106",
     },
     "MO": {
         "bird": "Bluebird",
@@ -248,6 +296,8 @@ full_state_dictionary = {
         "name": "Missouri",
         "population": "6,137,428",
         "gov_party": "Republican",
+        "lat": "38.579201",
+        "lon": "-92.172935",
     },
     "MT": {
         "bird": "Western Meadowlark",
@@ -258,6 +308,8 @@ full_state_dictionary = {
         "name": "Montana",
         "population": "1,068,778",
         "gov_party": "Republican",
+        "lat": "46.585709",
+        "lon": "-112.018417",
     },
     "NE": {
         "bird": "Western Meadowlark",
@@ -268,6 +320,8 @@ full_state_dictionary = {
         "name": "Nebraska",
         "population": "1,934,408",
         "gov_party": "Republican",
+        "lat": "40.808075",
+        "lon": "-96.699654",
     },
     "NV": {
         "bird": "Mountain Bluebird",
@@ -278,6 +332,8 @@ full_state_dictionary = {
         "name": "Nevada",
         "population": "3,080,156",
         "gov_party": "Republican",
+        "lat": "39.163914",
+        "lon": "-119.766121",
     },
     "NH": {
         "bird": "Purple Finch",
@@ -288,6 +344,8 @@ full_state_dictionary = {
         "name": "New Hampshire",
         "population": "1,359,711",
         "gov_party": "Republican",
+        "lat": "43.206898",
+        "lon": "-71.537994",
     },
     "NJ": {
         "bird": "Eastern Goldfinch",
@@ -298,6 +356,8 @@ full_state_dictionary = {
         "name": "New Jersey",
         "population": "8,882,190",
         "gov_party": "Democratic",
+        "lat": "40.220596",
+        "lon": "-74.769913",
     },
     "NM": {
         "bird": "Roadrunner",
@@ -308,6 +368,8 @@ full_state_dictionary = {
         "name": "New Mexico",
         "population": "2,096,829",
         "gov_party": "Democratic",
+        "lat": "35.68224",
+        "lon": "-105.939728",
     },
     "NY": {
         "bird": "Eastern Bluebird",
@@ -318,6 +380,8 @@ full_state_dictionary = {
         "name": "New York",
         "population": "19,453,561",
         "gov_party": "Democratic",
+        "lat": "42.652843",
+        "lon": "-73.757874",
     },
     "NC": {
         "bird": "Cardinal",
@@ -328,6 +392,8 @@ full_state_dictionary = {
         "name": "North Carolina",
         "population": "10,488,084",
         "gov_party": "Democratic",
+        "lat": "35.78043",
+        "lon": "-78.639099",
     },
     "ND": {
         "bird": "Western Meadowlark",
@@ -338,6 +404,8 @@ full_state_dictionary = {
         "name": "North Dakota",
         "population": "762,062",
         "gov_party": "Republican",
+        "lat": "46.82085",
+        "lon": "-100.783318",
     },
     "OH": {
         "bird": "Cardinal",
@@ -348,6 +416,8 @@ full_state_dictionary = {
         "name": "Ohio",
         "population": "11,689,100",
         "gov_party": "Republican",
+        "lat": "39.961346",
+        "lon": "-82.999069",
     },
     "OK": {
         "bird": "Scissor-tailed Flycatcher",
@@ -358,6 +428,8 @@ full_state_dictionary = {
         "name": "Oklahoma",
         "population": "3,956,971",
         "gov_party": "Republican",
+        "lat": "35.492207",
+        "lon": "-97.503342",
     },
     "OR": {
         "bird": "Western Meadowlark",
@@ -368,6 +440,8 @@ full_state_dictionary = {
         "name": "Oregon",
         "population": "4,217,737",
         "gov_party": "Democratic",
+        "lat": "44.938461",
+        "lon": "-123.030403",
     },
     "PA": {
         "bird": "Ruffed Grouse",
@@ -378,6 +452,8 @@ full_state_dictionary = {
         "name": "Pennsylvania",
         "population": "12,801,989",
         "gov_party": "Democratic",
+        "lat": "40.264378",
+        "lon": "-76.883598",
     },
     "RI": {
         "bird": "Rhode Island Red Hen",
@@ -388,6 +464,8 @@ full_state_dictionary = {
         "name": "Rhode Island",
         "population": "1,059,361",
         "gov_party": "Democratic",
+        "lat": "41.830914",
+        "lon": "-71.414963",
     },
     "SC": {
         "bird": "Carolina Wren",
@@ -398,6 +476,8 @@ full_state_dictionary = {
         "name": "South Carolina",
         "population": "5,148,714",
         "gov_party": "Republican",
+        "lat": "34.000343",
+        "lon": "-81.033211",
     },
     "SD": {
         "bird": "Ring-necked Pheasant",
@@ -408,6 +488,8 @@ full_state_dictionary = {
         "name": "South Dakota",
         "population": "884,659",
         "gov_party": "Republican",
+        "lat": "44.367031",
+        "lon": "-100.346405",
     },
     "TN": {
         "bird": "Mockingbird",
@@ -418,6 +500,8 @@ full_state_dictionary = {
         "name": "Tennessee",
         "population": "6,829,174",
         "gov_party": "Republican",
+        "lat": "36.16581",
+        "lon": "-86.784241",
     },
     "TX": {
         "bird": "Mockingbird",
@@ -428,6 +512,8 @@ full_state_dictionary = {
         "name": "Texas",
         "population": "28,995,881",
         "gov_party": "Republican",
+        "lat": "30.27467",
+        "lon": "-97.740349",
     },
     "UT": {
         "bird": "Ring-billed Gull",
@@ -438,6 +524,8 @@ full_state_dictionary = {
         "name": "Utah",
         "population": "3,205,958",
         "gov_party": "Republican",
+        "lat": "40.777477",
+        "lon": "-111.888237",
     },
     "VT": {
         "bird": "Hermit Thrush",
@@ -448,6 +536,8 @@ full_state_dictionary = {
         "name": "Vermont",
         "population": "623,989",
         "gov_party": "Republican",
+        "lat": "44.262436",
+        "lon": "-72.580536",
     },
     "VA": {
         "bird": "Cardinal",
@@ -458,6 +548,8 @@ full_state_dictionary = {
         "name": "Virginia",
         "population": "8,535,519",
         "gov_party": "Republican",
+        "lat": "37.538857",
+        "lon": "-77.43364",
     },
     "WA": {
         "bird": "Willow Goldfinch",
@@ -468,6 +560,8 @@ full_state_dictionary = {
         "name": "Washington",
         "population": "7,614,893",
         "gov_party": "Democratic",
+        "lat": "47.035805",
+        "lon": "-122.905014",
     },
     "WV": {
         "bird": "Cardinal",
@@ -478,6 +572,8 @@ full_state_dictionary = {
         "name": "West Virginia",
         "population": "1,792,147",
         "gov_party": "Republican",
+        "lat": "38.336246",
+        "lon": "-81.612328",
     },
     "WI": {
         "bird": "Robin",
@@ -488,6 +584,8 @@ full_state_dictionary = {
         "name": "Wisconsin",
         "population": "5,822,434",
         "gov_party": "Democratic",
+        "lat": "43.074684",
+        "lon": "-89.384445",
     },
     "WY": {
         "bird": "Western Meadowlark",
@@ -498,5 +596,7 @@ full_state_dictionary = {
         "name": "Wyoming",
         "population": "578,759",
         "gov_party": "Republican",
+        "lat": "41.140259",
+        "lon": "-104.820236",
     },
 }

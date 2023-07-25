@@ -1,0 +1,72 @@
+{% extends 'base.html' %} 
+
+{% block content %}
+<!-- starting main div wrapper -->
+<div class="container w-11/12 mt-7">
+
+<!-- state list and map area -->
+    <div class="flex flex-row container">
+        <div class="w-3/12 bg-pink-100 pl-4 py-2 h-96 overflow-scroll">
+            <ul>
+                {% for k,v in full_state_dictionary.items() %}
+                <li>
+                    {{ v['name'] }}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="w-9/12 bg-teal-600">
+            <script>
+                function initMap() {
+                  console.log('Maps JavaScript API loaded.');
+            
+                  const advancedMarkers = document.querySelectorAll("#marker-click-event-example gmp-advanced-marker");
+                  for (const advancedMarker of advancedMarkers) {
+                    customElements.whenDefined(advancedMarker.localName).then(async () => {
+                      advancedMarker.addEventListener('gmp-click', async () => {
+                        const {InfoWindow} = await google.maps.importLibrary("maps");
+                        const infoWindow = new InfoWindow({
+                          content: advancedMarker.title
+                        });
+                        infoWindow.open({
+                          anchor: advancedMarker
+                        });
+                      });
+                    });
+                  }
+                }
+            </script>
+            <script>
+                function myFunction() {
+                    document.getElementById("test-area").style.backgroundColor = "red";
+                }
+            </script>
+
+            <gmp-map id="marker-click-event-example" center="43.4142989,-124.2301242" zoom="4" map-id="DEMO_MAP_ID">
+                {% for k,v in full_state_dictionary.items() %}
+                    <gmp-advanced-marker position="{{ v['lat'] }},{{ v['lon'] }}" title="{{v['capital']}}, {{ v['name'] }}"></gmp-advanced-marker>
+                {% endfor %}
+            </gmp-map>
+        </div>
+    </div>
+    <!-- start new div -->
+    <div class="container">
+        <div>
+            <div id="test-area" onclick="myFunction()" style="height: 100px; width: 100px; background-color: yellow;">hello</div>
+        </div>
+        <img src="/static/img/blank_map.png" usemap="#us-map" alt="">
+
+        <map name="us-map">
+            <area shape="rect" href="#" coords="10,10,100,100" alt="AL" id="AL" onclick="myFunction()">
+        </map>
+
+
+
+
+    </div>
+
+    <!-- end new div -->
+</div>
+<!-- ending main div wrapper -->
+{% endblock %}
+
