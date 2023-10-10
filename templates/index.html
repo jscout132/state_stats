@@ -22,7 +22,6 @@ src="{{ url_for('static', filename='scripts.js') }}"></script>
         <div class="w-9/12">
             <script>
                 function initMap() {
-                  console.log('Maps JavaScript API loaded.');
             
                   const advancedMarkers = document.querySelectorAll("#marker-click-event-example gmp-advanced-marker");
                   for (const advancedMarker of advancedMarkers) {
@@ -41,11 +40,7 @@ src="{{ url_for('static', filename='scripts.js') }}"></script>
                 }
 
             </script>
-            <script>
-                function myFunction() {
-                    document.getElementById("test-area").style.backgroundColor = "red";
-                }
-            </script>
+
 
             <gmp-map id="marker-click-event-example" center="40.808075,-96.699654" zoom="4" map-id="DEMO_MAP_ID">
                 {% for k,v in full_state_dictionary.items() %}
