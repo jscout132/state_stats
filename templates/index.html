@@ -40,7 +40,11 @@ src="{{ url_for('static', filename='scripts.js') }}"></script>
                 }
 
             </script>
-
+            <script>
+                function myFunction() {
+                    document.getElementById("test-area").style.backgroundColor = "red";
+                }
+            </script>
 
             <gmp-map id="marker-click-event-example" center="40.808075,-96.699654" zoom="4" map-id="DEMO_MAP_ID">
                 {% for k,v in full_state_dictionary.items() %}
@@ -52,32 +56,45 @@ src="{{ url_for('static', filename='scripts.js') }}"></script>
 
 </div>
 
-<div class="w-11/12 mt-5">
+<div class=" container w-11/12 mt-5">
     <div class="container flex flex-row">
 
         <!-- start land area scroll -->
-        <div class="w-5/12 mx-5">
-            <div class="border-b-2 mb-1 border-blue-800">
+        <div class="w-12/12 mx-2">
+            <div class="border-b-2 mb-1">
                 <p class="text-lg font-sans text-center">
-                    States by Size
+                    State Stats
                 </p>
             </div>
-            <input type="text" class="border rounded border-gray-400 mb-2" id="state_size" onkeyup="stateLandSearch()" placeholder="Search for a state">
+            <!-- TODO: troubleshoot search bar -->
+            <!-- <input type="text" class="border rounded border-gray-400 mb-2" id="state_search" onkeyup="stateSearch()" placeholder="Search for a state"> -->
             
             <div class="h-96 overflow-scroll">
-                <table id="land-area" class="table-style table-sort">
+                <table id="state-area" class="table-style table-sort">
                     <tr class="">
-                        <th class="text-white table-header" onclick="sortTable1()">State Name</th>
-                        <th class="text-white">Land Area</th>
+                        <th class="table-header" onclick="">State Name</th>
+                        <th class="">Land Area</th>
+                        <th class="">Population</th>
+                        <th class="">Governor</th>
+                        <th class="">State Flower</th>
+                        <th class="">State Bird</th>
                     </tr>
 
                     {% for k,v in full_state_dictionary.items() %}
                     <tr>
+                        <td class="state-name">{{ v['name'] }}</td>
+                        <td>{{ v['land_area'] }}</td>
                         <td>
-                            <p class="state-name">{{ v['name'] }}</p>
+                            <p>{{ v['population'] }}</p>
                         </td>
                         <td>
-                            <p>{{ v['land_area'] }}</p>
+                            <p>{{ v['governor'] }}</p>
+                        </td>
+                        <td>
+                            <p>{{ v['flower'] }}</p>
+                        </td>
+                        <td>
+                            <p>{{ v['bird'] }}</p>
                         </td>
                     </tr>
                     {% endfor %}
@@ -86,54 +103,6 @@ src="{{ url_for('static', filename='scripts.js') }}"></script>
         </div>
         <!-- end land area scroll -->
 
-        <!-- start population scroll -->
-        <div class="w-5/12 mx-5">
-            <div class="border-b-2 mb-1 border-blue-800">
-                <p class="text-lg font-sans text-center">
-                    States by Population
-                </p>
-            </div>
-            <input type="text" class="border rounded border-gray-400 mb-2" id="state_size" onkeyup="statePopSearch()" placeholder="Search for a state">
-            
-            <div class="h-96 overflow-scroll">
-                <table id="pop-area" class="table-style">
-                    <tr class="">
-                        <th class="text-white" onclick="sortPopTable(0)">State Name</th>
-                        <th class="text-white">Population</th>
-                    </tr>
-
-                    {% for k,v in full_state_dictionary.items() %}
-                    <tr>
-                        <td>
-                            <p class="state-name">{{ v['name'] }}</p>
-                            
-                        </td>
-                        <td>
-                            <p>{{ v['population'] }}</p>
-                        </td>
-                    </tr>
-                    {% endfor %}
-                </table>
-            </div>
-        </div>
-        <!-- end population scroll -->
-    </div>
-    
-
-    <div class="container flex">
-        <div class="w-5/12 h-96 overflow-scroll">
-            <p>State Birds</p>
-                {% for k,v in full_state_dictionary.items() %}
-                <p>{{ v['name'] }}: {{ v['bird'] }}</p>
-                {% endfor %}
-        </div>
-        <div class="w-5/12 h-96 overflow-scroll">
-            <p>State Flower</p>
-                {% for k,v in full_state_dictionary.items() %}
-                <p>{{ v['name'] }}: {{ v['flower'] }}</p>
-                {% endfor %}
-        </div>
-    </div>
 </div>
 <!-- ending main div wrapper -->
 {% endblock %}
