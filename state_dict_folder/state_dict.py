@@ -1,3 +1,8 @@
+# if i were to make this again, i would set it up as a list with dictionaries as the items
+# instead of a dictionary of dictionaries
+
+# TODO: add the numerical values as numbers instead of strings
+
 full_state_dictionary = {
     "AL": {
         "bird": "Yellowhammer",

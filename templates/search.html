@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const searchInput = document.getElementById('searchInput');
+        const resultsContainer = document.getElementById('results');
+        const stateFlowers = {{ full_state_dictionary }}
+        console.log('this is the state flower', stateFlowers)
+
+        function updateResults(searchTerm) {
+            resultsContainer.innerHTML = ''; // Clear previous results
+    
+            stateFlowers.forEach(pair => {
+                if (pair.flower.includes(searchTerm.toLowerCase())) {
+                    const listItem = document.createElement('li');
+                    listItem.textContent = `${pair.state}: ${pair.flower}`;
+                    resultsContainer.appendChild(listItem);
+                }
+            });
+        }
+    
+        searchInput.addEventListener('input', function() {
+            const searchTerm = this.value.trim();
+            updateResults(searchTerm);
+        });
+    });
+    
+</script>
+
+    <h1>Search for State Flowers  <input type="text" id="searchInput" placeholder="Search for a flower..."></h1>
+   
+    <ul id="results">
+        {% for k,v in full_state_dictionary.items() %}
+        <li id="flowers">{{ v['name'] }}: {{ v['flower'] }}</li>
+        {% endfor %}
+    </ul>
+
+{% endblock %}

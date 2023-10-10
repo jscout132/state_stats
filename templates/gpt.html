@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+#main-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;}
+
+img {
+    display: block;
+}
+
+    .image-container {
+    position: relative;
+    display: inline-block;
+}
+
+
+
+
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const map = document.getElementById('map');
+    const areas = map.querySelectorAll('area');
+    
+    areas.forEach(area => {
+        area.addEventListener('mouseover', function() {
+            const hoverColor = this.dataset.hovercolor || 'lightcoral';
+            this.style.backgroundColor = hoverColor;
+        });
+        
+        area.addEventListener('mouseout', function() {
+            this.style.backgroundColor = 'transparent';
+        });
+    });
+});
+
+
+</script>
+
+
+<div id="main-area" class="image-container"> 
+  <img src="../static/img/blank_map.png" alt="Image with Clickable Areas" usemap="#map">
+    
+    <map name="map" id="map">
+        <area shape="rect" coords="10,10,50,50" data-hovercolor="lightcoral">
+        <!-- Add more areas with different shapes and coordinates -->
+    </map>
+</div>
+{% endblock %}
