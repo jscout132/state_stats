@@ -21,7 +21,9 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB022q1pB4wYXEJ6fOE3GQFRT-
 </head>
 <body>
 {% block content %}
-
+<nav class="w-full bg-amber-200 h-1/3">
+    <a href="{{ url_for('site.home') }}">home</a>
+</nav>
 {% endblock %}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>

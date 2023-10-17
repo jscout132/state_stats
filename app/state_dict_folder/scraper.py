@@ -1,6 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 
+from .state_dict import full_state_dictionary
+
 url = 'https://www.50states.com/tools/thelist.htm'
 page = requests.get(url)
 
@@ -144,3 +146,36 @@ def state_land_area_scrape():
     land_area = [i for i in land_area_sorted.values()]
     print(land_area)
 # state_land_area_scrape()
+
+
+def num_pop_land():
+    for k,v in full_state_dictionary.items():
+        v['land_area_num'] = int(v['land_area'].replace(',',''))
+        v['pop_num'] = int(v['population'].replace(',',''))
+# num_pop_land()
+
+def lank_pop_rankings():
+    state_name = [i['name'] for i in full_state_dictionary.values()]
+    land_area_dict = dict.fromkeys(state_name, 0)
+    pop_dict = dict.fromkeys(state_name, 0)
+    for v in full_state_dictionary.values():
+        land_area_dict.update({v['name']: v['land_area_num']})
+        pop_dict.update({v['name']: v['pop_num']})
+        
+    sorted_land_area = sorted(land_area_dict.items(), key=lambda x:x[1], reverse=True)
+    sorted_pop = sorted(pop_dict.items(), key=lambda x:x[1], reverse=True)
+
+    ranked_land = [(i[0],sorted_land_area.index(i)) for i in sorted_land_area]
+    ranked_pop = [(i[0],sorted_pop.index(i)) for i in sorted_pop]
+
+    for k,v in full_state_dictionary.items():
+        for i in ranked_land:
+            if i[0] == v['name']:
+                full_state_dictionary[k]['land_area_rank'] = i[1]+1
+
+    for k,v in full_state_dictionary.items():
+        for i in ranked_pop:
+            if i[0] == v['name']:
+                full_state_dictionary[k]['pop_rank'] = i[1]+1
+    print(full_state_dictionary)
+# lank_pop_rankings()

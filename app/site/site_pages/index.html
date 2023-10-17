@@ -38,13 +38,8 @@ src="{{ url_for('static', filename='scripts.js') }}"></script>
                     });
                   }
                 }
+            </script>
 
-            </script>
-            <script>
-                function myFunction() {
-                    document.getElementById("test-area").style.backgroundColor = "red";
-                }
-            </script>
 
             <gmp-map id="marker-click-event-example" center="40.808075,-96.699654" zoom="4" map-id="DEMO_MAP_ID">
                 {% for k,v in full_state_dictionary.items() %}
@@ -80,21 +75,21 @@ src="{{ url_for('static', filename='scripts.js') }}"></script>
                         <th class="">State Bird</th>
                     </tr>
 
-                    {% for k,v in full_state_dictionary.items() %}
+                    {% for state_code, state_data in full_state_dictionary.items() %}
                     <tr>
-                        <td class="state-name">{{ v['name'] }}</td>
-                        <td>{{ v['land_area'] }}</td>
+                        <td class="state-name"><a href="state/{{ state_code }}">{{ state_data.name }}</a></td>
+                        <td>{{ state_data.land_area }}</td>
                         <td>
-                            <p>{{ v['population'] }}</p>
+                            <p>{{ state_data.population }}</p>
                         </td>
                         <td>
-                            <p>{{ v['governor'] }}</p>
+                            <p>{{ state_data.governor }}</p>
                         </td>
                         <td>
-                            <p>{{ v['flower'] }}</p>
+                            <p>{{ state_data.flower }}</p>
                         </td>
                         <td>
-                            <p>{{ v['bird'] }}</p>
+                            <p>{{ state_data.bird }}</p>
                         </td>
                     </tr>
                     {% endfor %}
