@@ -28,14 +28,16 @@ def gov_bio_test():
 def gov_info_scrape():
     file_path = 'app/state_dict_folder/gov_dict.py'
     for k,v in full_state_dictionary.items():
-        gov = requests.get(f"https://www.nga.org/governors/{v['name']}/", headers=HEADERS)
-        soup = BeautifulSoup(gov.content,'html.parser')
+        gov_dictionary.update({v['name']:{'gov_name':v['governor']}})
 
+    for k,v in gov_dictionary.items():
+        gov = requests.get(f"https://www.nga.org/governors/{k}/", headers=HEADERS)
+        soup = BeautifulSoup(gov.content,'html.parser')
+        
         # scraping for term, birthdate, state born, and schooling
         terms = soup.find_all('li', class_='item')
         term_list = [term.text.strip() for term in terms[0:5]]
         clean_term = [term[11:].lstrip() for term in term_list]
-        gov_dictionary.update({v['name']:{'gov_name':v['governor']}})
 
         # scraping for 1st 2 para bio section
         bio = soup.find_all('p')
@@ -43,19 +45,43 @@ def gov_info_scrape():
 
         # removing empty lists to prevent indexing errors
         trouble_states = []
-        if len(clean_term) == 0:
-            trouble_states.append(v['name'])
+        if len(clean_term) > 0:
+            v.update({'terms':clean_term[0]})
+            v.update({'birthdate':clean_term[2]})
+            v.update({'bith_state':clean_term[3]})
+            v.update({'school':clean_term[4]})
+            v.update({'bio':bio_list})
         else:
-            for k,v in gov_dictionary.items():
-                v.update({'terms':clean_term[0]})
-                v.update({'birthdate':clean_term[2]})
-                v.update({'bith_state':clean_term[3]})
-                v.update({'school':clean_term[4]})
-                v.update({'bio':bio_list})
+            trouble_states.append(k)
+
+    print(trouble_states)
 
     with open(file_path,'w') as file:
         file.write(str(gov_dictionary))
-gov_info_scrape()
+# gov_info_scrape()
+
+def two_word_states():
+    states = ['New-Hampshire', 'New-Jersey', 'New-York', 'New-Mexico', 'North-Carolina', 'North-Dakota', 'Rhode-Island', 'South-Carolina', 'South-Dakota', 'West-Virginia']
+    for state in states:
+        gov = requests.get(f"https://www.nga.org/governors/{state}/", headers=HEADERS)
+        soup = BeautifulSoup(gov.content,'html.parser')
+        
+        # scraping for term, birthdate, state born, and schooling
+        terms = soup.find_all('li', class_='item')
+        term_list = [term.text.strip() for term in terms[0:5]]
+        clean_term = [term[11:].lstrip() for term in term_list]
+        bio = soup.find_all('p')
+        bio_list = [i.text for i in bio[0:3]]
+        print(state)
+        print('"terms":', clean_term[0])
+        print('"birthdate":', clean_term[2])
+        print('"birth_state":', clean_term[3])
+        print('"school":', clean_term[4])
+        print('"bio":', bio_list)
+
+# two_word_states()
+
+
 
 def state_birds_scrape():
     bird_url = "https://www.50states.com/bird/"

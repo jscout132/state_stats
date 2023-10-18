@@ -1,10 +1,10 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<div class="contianer w-100 mt-5">
-    <div class="contianer">
-        <h4 class="text-lg font-sans text-center">{{ state_data.name }}</h4>
-        <p>TODO: scrape wiki header paragraph</p>
+<div class="w-100 mt-5">
+    <div class="contianer border-b-2">
+      <h1 class="text-2xl font-sans text-center">{{ state_data.name }}</h1>
+      <p>maybe add a mini nav here to jump to gov, leg, and bird</p>
     </div>
     <div class="flex justify-center">
         <div class="w-40 bg-dark-green m-5 p-3 rounded-md">
@@ -43,15 +43,32 @@
                 <gmp-advanced-marker position="{{ state_data.lat }},{{ state_data.lon }}" title="{{state_data.capital}}"></gmp-advanced-marker>
         </gmp-map>
     </div>
-    <div class="container">
-      Gov section
-      <img src="https://www.nga.org/wp-content/uploads/2018/01/Governor-Ivey-2019-Headshot-scaled.jpg" alt="">
+    <div class="container mt-4 border-t-2">
+      <div>
+        <h1 class="text-2xl">Gov {{ state_data.governor }}</h1>
+      </div>
+      <div class="flex">
+        <div class="bg-dark-red p-3 m-4 rounded-md">
+          <p class="light-blue">First Elected to Office: {{ gov_data.terms }}</p>
+          <p class="light-blue">Date of Birth: {{ gov_data.birthdate }}</p>
+          <p class="light-blue">State Born: {{ gov_data.bith_state }}</p>
+          <p class="light-blue">Education: {{ gov_data.school }}</p>
+        </div>
+        <div class="w-1/5">
+          <img src="{{ state_data.gov_img }}"class="rounded-md m-4" alt="headshot of {{ state_data.governor }}">
+        </div>
+      </div>
+      <div class="container">
+        <h3 class="pb-3 text-xl">Bio</h3>
+        {% for i in gov_data.bio %}
+        <p class="pb-2">{{ i }}</p>
+        {% endfor %}
+      </div>
+      
     </div>
-    <div>
-      <p>
-        Governor terms, birthdates, birth states, school, bio paragraphs, and images pulled from: https://www.nga.org/governors/
-      </p>
-    </div>
+  <div class="bg-dark-gold">
+    <p class="p-3 light-gold">Note: Governor term start, birthdate, birth state, education, bio, and image taken from: <a href="https://www.nga.org/governors/">https://www.nga.org/governors/</a></p>
+  </div>    
 </div>
 
 
