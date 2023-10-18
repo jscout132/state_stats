@@ -1,13 +1,61 @@
 import requests
 from bs4 import BeautifulSoup
+from fake_useragent import UserAgent
 
-from .state_dict import full_state_dictionary
+from state_dict import full_state_dictionary
+from gov_dict import gov_dictionary
 
-url = 'https://www.50states.com/tools/thelist.htm'
-page = requests.get(url)
 
-soup = BeautifulSoup(page.content, "html.parser")
-results = soup.find(id="content")
+def test():
+    url = 'https://www.50states.com/tools/thelist.htm'
+    page = requests.get(url)
+
+    soup = BeautifulSoup(page.content, "html.parser")
+    results = soup.find(id="content")
+
+ua = UserAgent()
+HEADERS = {'User-Agent': ua.random}
+
+def gov_bio_test():
+    state = 'alabama'
+    gov = requests.get(f"https://www.nga.org/governors/{state}/", headers=HEADERS)
+    soup = BeautifulSoup(gov.content,'html.parser')
+    bio = soup.find_all('p')
+    bio_list = [i.text for i in bio[0:3]]
+# gov_bio_test()
+
+
+def gov_info_scrape():
+    file_path = 'app/state_dict_folder/gov_dict.py'
+    for k,v in full_state_dictionary.items():
+        gov = requests.get(f"https://www.nga.org/governors/{v['name']}/", headers=HEADERS)
+        soup = BeautifulSoup(gov.content,'html.parser')
+
+        # scraping for term, birthdate, state born, and schooling
+        terms = soup.find_all('li', class_='item')
+        term_list = [term.text.strip() for term in terms[0:5]]
+        clean_term = [term[11:].lstrip() for term in term_list]
+        gov_dictionary.update({v['name']:{'gov_name':v['governor']}})
+
+        # scraping for 1st 2 para bio section
+        bio = soup.find_all('p')
+        bio_list = [i.text for i in bio[0:3]]
+
+        # removing empty lists to prevent indexing errors
+        trouble_states = []
+        if len(clean_term) == 0:
+            trouble_states.append(v['name'])
+        else:
+            for k,v in gov_dictionary.items():
+                v.update({'terms':clean_term[0]})
+                v.update({'birthdate':clean_term[2]})
+                v.update({'bith_state':clean_term[3]})
+                v.update({'school':clean_term[4]})
+                v.update({'bio':bio_list})
+
+    with open(file_path,'w') as file:
+        file.write(str(gov_dictionary))
+gov_info_scrape()
 
 def state_birds_scrape():
     bird_url = "https://www.50states.com/bird/"

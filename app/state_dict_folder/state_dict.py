@@ -1,6 +1,7 @@
 # if i were to make this again, i would set it up as a list with dictionaries as the items
 # instead of a dictionary of dictionaries
 
+# TODO: add all gov img links
 
 full_state_dictionary = {
     "AL": {
@@ -18,6 +19,7 @@ full_state_dictionary = {
         "pop_num": 4903185,
         "land_area_rank": 28,
         "pop_rank": 24,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2018/01/Governor-Ivey-2019-Headshot-scaled.jpg',
     },
     "AK": {
         "bird": "Willow Ptarmigan",
@@ -34,6 +36,7 @@ full_state_dictionary = {
         "pop_num": 731545,
         "land_area_rank": 1,
         "pop_rank": 48,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2019/09/Gov_Dunleavy_Sep2023_square-scaled.jpg',
     },
     "AZ": {
         "bird": "Cactus Wren",
@@ -50,6 +53,7 @@ full_state_dictionary = {
         "pop_num": 7278717,
         "land_area_rank": 6,
         "pop_rank": 14,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2023/01/governor-katie-hobbs-scaled.jpeg',
     },
     "AR": {
         "bird": "Northern Mockingbird",
@@ -66,6 +70,7 @@ full_state_dictionary = {
         "pop_num": 3017804,
         "land_area_rank": 27,
         "pop_rank": 33,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2023/01/GovSHSOfficialHeadshot-2-scaled-1.jpg',
     },
     "CA": {
         "bird": "California Valley Quail",
@@ -82,6 +87,7 @@ full_state_dictionary = {
         "pop_num": 39512223,
         "land_area_rank": 3,
         "pop_rank": 1,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2019/09/1200px-Gavin_Newsom_official_photo_square.jpg',
     },
     "CO": {
         "bird": "Lark Bunting",
@@ -98,6 +104,7 @@ full_state_dictionary = {
         "pop_num": 5758736,
         "land_area_rank": 8,
         "pop_rank": 21,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2019/01/Colorado-Jared-Polis-November-2019.jpg',
     },
     "CT": {
         "bird": "American Robin",
@@ -114,6 +121,7 @@ full_state_dictionary = {
         "pop_num": 3565287,
         "land_area_rank": 48,
         "pop_rank": 29,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2019/02/Lamont_400x400.png',
     },
     "DE": {
         "bird": "Blue Hen Chicken",
@@ -130,6 +138,7 @@ full_state_dictionary = {
         "pop_num": 973764,
         "land_area_rank": 49,
         "pop_rank": 45,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2018/03/Governor-Carney-768x768.jpg',
     },
     "FL": {
         "bird": "Mockingbird",
@@ -146,6 +155,7 @@ full_state_dictionary = {
         "pop_num": 21477737,
         "land_area_rank": 26,
         "pop_rank": 3,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2019/09/Ron_DeSantis_Official_Portrait_113th_Congress.jpg',
     },
     "GA": {
         "bird": "Brown Thrasher",
@@ -162,6 +172,7 @@ full_state_dictionary = {
         "pop_num": 10617423,
         "land_area_rank": 21,
         "pop_rank": 8,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2019/01/Georgia-Brian-Kemp-2019.jpg',
     },
     "HI": {
         "bird": "Nene",
@@ -178,6 +189,7 @@ full_state_dictionary = {
         "pop_num": 1415872,
         "land_area_rank": 47,
         "pop_rank": 40,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2022/12/Governor_Josh_Green.jpg',
     },
     "ID": {
         "bird": "Mountain Bluebird",
@@ -194,6 +206,7 @@ full_state_dictionary = {
         "pop_num": 1787065,
         "land_area_rank": 11,
         "pop_rank": 39,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2019/09/governor_little_square.jpg',
     },
     "IL": {
         "bird": "Cardinal",
@@ -210,6 +223,7 @@ full_state_dictionary = {
         "pop_num": 12671821,
         "land_area_rank": 24,
         "pop_rank": 6,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2019/09/governor-pritzker-headshot_feb2023.jpg',
     },
     "IN": {
         "bird": "Cardinal",
@@ -226,6 +240,7 @@ full_state_dictionary = {
         "pop_num": 6732219,
         "land_area_rank": 38,
         "pop_rank": 17,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2019/09/Governor-Holcomb-Headshot-2023_square.jpg',
     },
     "IA": {
         "bird": "Eastern Goldfinch",
@@ -242,6 +257,7 @@ full_state_dictionary = {
         "pop_num": 3155070,
         "land_area_rank": 23,
         "pop_rank": 31,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2019/09/2022_GovKimReynolds_Headshot_Closeup_Flags_200h_squrare.jpg',
     },
     "KS": {
         "bird": "Western Meadowlark",
@@ -258,6 +274,7 @@ full_state_dictionary = {
         "pop_num": 2913314,
         "land_area_rank": 13,
         "pop_rank": 35,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2019/09/kelly_square.jpg',
     },
     "KY": {
         "bird": "Cardinal",
@@ -274,6 +291,7 @@ full_state_dictionary = {
         "pop_num": 4467673,
         "land_area_rank": 36,
         "pop_rank": 26,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2019/12/Governor-Beshear_Official-Picture_square-scaled.jpg',
     },
     "LA": {
         "bird": "Eastern Brown Pelican",
@@ -290,6 +308,7 @@ full_state_dictionary = {
         "pop_num": 4648794,
         "land_area_rank": 33,
         "pop_rank": 25,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2018/06/John-Bel-Edwards.jpg',
     },
     "ME": {
         "bird": "Chickadee",
@@ -306,6 +325,7 @@ full_state_dictionary = {
         "pop_num": 1344212,
         "land_area_rank": 39,
         "pop_rank": 42,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2019/09/3218_Gov-Janet-Mills-20230307_square-scaled.jpg',
     },
     "MD": {
         "bird": "Baltimore Oriole",
@@ -322,6 +342,7 @@ full_state_dictionary = {
         "pop_num": 6045680,
         "land_area_rank": 42,
         "pop_rank": 19,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2023/01/governor-wes-moore-official-portrait_square.jpg',
     },
     "MA": {
         "bird": "Chickadee",
@@ -338,6 +359,7 @@ full_state_dictionary = {
         "pop_num": 6892503,
         "land_area_rank": 45,
         "pop_rank": 15,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2023/01/Maura_Healey_square.jpg',
     },
     "MI": {
         "bird": "Robin",
@@ -354,6 +376,7 @@ full_state_dictionary = {
         "pop_num": 9986857,
         "land_area_rank": 22,
         "pop_rank": 10,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2019/09/GovWhitmerPortMaster_square-scaled.jpg',
     },
     "MN": {
         "bird": "Common Loon",
@@ -370,6 +393,7 @@ full_state_dictionary = {
         "pop_num": 5639632,
         "land_area_rank": 14,
         "pop_rank": 22,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2019/02/Walz_400x400.jpg',
     },
     "MS": {
         "bird": "Mockingbird",
@@ -386,6 +410,7 @@ full_state_dictionary = {
         "pop_num": 2976149,
         "land_area_rank": 31,
         "pop_rank": 34,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2020/01/headshot-governor-tate-reeves_R_square.jpg',
     },
     "MO": {
         "bird": "Bluebird",
@@ -402,6 +427,7 @@ full_state_dictionary = {
         "pop_num": 6137428,
         "land_area_rank": 18,
         "pop_rank": 18,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2019/09/GovernorParson_square.png',
     },
     "MT": {
         "bird": "Western Meadowlark",
@@ -418,6 +444,7 @@ full_state_dictionary = {
         "pop_num": 1068778,
         "land_area_rank": 4,
         "pop_rank": 43,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2020/11/Montana-Greg-Gianforte-January-2021.jpg',
     },
     "NE": {
         "bird": "Western Meadowlark",
@@ -434,6 +461,7 @@ full_state_dictionary = {
         "pop_num": 1934408,
         "land_area_rank": 15,
         "pop_rank": 37,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2023/01/headshot-pillen.jpg',
     },
     "NV": {
         "bird": "Mountain Bluebird",
@@ -450,6 +478,7 @@ full_state_dictionary = {
         "pop_num": 3080156,
         "land_area_rank": 7,
         "pop_rank": 32,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2023/01/Governor-Joe-Lombardo_Official-Photo-scaled.jpg',
     },
     "NH": {
         "bird": "Purple Finch",
@@ -466,6 +495,7 @@ full_state_dictionary = {
         "pop_num": 1359711,
         "land_area_rank": 44,
         "pop_rank": 41,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2019/09/GOV_SUNUNU_OFFICIAL_PHOTO_square.jpg',
     },
     "NJ": {
         "bird": "Eastern Goldfinch",
@@ -482,6 +512,7 @@ full_state_dictionary = {
         "pop_num": 8882190,
         "land_area_rank": 46,
         "pop_rank": 11,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2019/09/GovMurphy_April2023.jpg',
     },
     "NM": {
         "bird": "Roadrunner",
@@ -498,6 +529,7 @@ full_state_dictionary = {
         "pop_num": 2096829,
         "land_area_rank": 5,
         "pop_rank": 36,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2019/02/New-Mexico-Michelle-Lujan-Grisham-January-2018.jpg',
     },
     "NY": {
         "bird": "Eastern Bluebird",
@@ -514,6 +546,7 @@ full_state_dictionary = {
         "pop_num": 19453561,
         "land_area_rank": 30,
         "pop_rank": 4,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2021/08/GovernorHochul.jpg',
     },
     "NC": {
         "bird": "Cardinal",
@@ -530,6 +563,7 @@ full_state_dictionary = {
         "pop_num": 10488084,
         "land_area_rank": 29,
         "pop_rank": 9,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2019/02/North-Carolina-Roy-Cooper-January-2019.jpg',
     },
     "ND": {
         "bird": "Western Meadowlark",
@@ -546,6 +580,7 @@ full_state_dictionary = {
         "pop_num": 762062,
         "land_area_rank": 17,
         "pop_rank": 47,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2018/06/G0v_Burgum-NorthDakota.jpg',
     },
     "OH": {
         "bird": "Cardinal",
@@ -562,6 +597,7 @@ full_state_dictionary = {
         "pop_num": 11689100,
         "land_area_rank": 35,
         "pop_rank": 7,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2019/01/Gov-Mike-DeWine.jpg',
     },
     "OK": {
         "bird": "Scissor-tailed Flycatcher",
@@ -578,6 +614,7 @@ full_state_dictionary = {
         "pop_num": 3956971,
         "land_area_rank": 19,
         "pop_rank": 28,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2019/06/Oklahoma-Kevin-Stitt-June-2019.jpg',
     },
     "OR": {
         "bird": "Western Meadowlark",
@@ -594,6 +631,7 @@ full_state_dictionary = {
         "pop_num": 4217737,
         "land_area_rank": 10,
         "pop_rank": 27,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2023/01/tina_kotek_square.jpg',
     },
     "PA": {
         "bird": "Ruffed Grouse",
@@ -610,6 +648,7 @@ full_state_dictionary = {
         "pop_num": 12801989,
         "land_area_rank": 32,
         "pop_rank": 5,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2023/01/JoshShapiroHeadshots-1.jpg',
     },
     "RI": {
         "bird": "Rhode Island Red Hen",
@@ -626,6 +665,7 @@ full_state_dictionary = {
         "pop_num": 1059361,
         "land_area_rank": 50,
         "pop_rank": 44,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2021/03/GovernorMcKee.jpg',
     },
     "SC": {
         "bird": "Carolina Wren",
@@ -642,6 +682,7 @@ full_state_dictionary = {
         "pop_num": 5148714,
         "land_area_rank": 40,
         "pop_rank": 23,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2018/06/SC-Henry-McMaster.jpg',
     },
     "SD": {
         "bird": "Ring-necked Pheasant",
@@ -658,6 +699,7 @@ full_state_dictionary = {
         "pop_num": 884659,
         "land_area_rank": 16,
         "pop_rank": 46,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2019/04/KNpic.jpg',
     },
     "TN": {
         "bird": "Mockingbird",
@@ -674,6 +716,7 @@ full_state_dictionary = {
         "pop_num": 6829174,
         "land_area_rank": 34,
         "pop_rank": 16,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2019/09/governor_lee_square.jpg',
     },
     "TX": {
         "bird": "Mockingbird",
@@ -690,6 +733,7 @@ full_state_dictionary = {
         "pop_num": 28995881,
         "land_area_rank": 2,
         "pop_rank": 2,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2018/07/TX_Gov_Greg_Abbott.png',
     },
     "UT": {
         "bird": "Ring-billed Gull",
@@ -706,6 +750,7 @@ full_state_dictionary = {
         "pop_num": 3205958,
         "land_area_rank": 12,
         "pop_rank": 30,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2021/01/Governor_Cox_official_square-scaled.jpg',
     },
     "VT": {
         "bird": "Hermit Thrush",
@@ -722,6 +767,7 @@ full_state_dictionary = {
         "pop_num": 623989,
         "land_area_rank": 43,
         "pop_rank": 49,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2019/02/Vermont-Phil-Scott-November-2018.jpg',
     },
     "VA": {
         "bird": "Cardinal",
@@ -738,6 +784,7 @@ full_state_dictionary = {
         "pop_num": 8535519,
         "land_area_rank": 37,
         "pop_rank": 12,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2022/01/Governor-Glenn-Youngkin-Official-photo2022.jpg',
     },
     "WA": {
         "bird": "Willow Goldfinch",
@@ -754,6 +801,7 @@ full_state_dictionary = {
         "pop_num": 7614893,
         "land_area_rank": 20,
         "pop_rank": 13,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2019/09/Gov_Inslee_1_8_20_HighContrast_square.jpg',
     },
     "WV": {
         "bird": "Cardinal",
@@ -770,6 +818,7 @@ full_state_dictionary = {
         "pop_num": 1792147,
         "land_area_rank": 41,
         "pop_rank": 38,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2019/02/West-Virginia-Jim-Justice-February-2019.jpg',
     },
     "WI": {
         "bird": "Robin",
@@ -786,6 +835,7 @@ full_state_dictionary = {
         "pop_num": 5822434,
         "land_area_rank": 25,
         "pop_rank": 20,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2019/02/Wisconsin-Tony-Evers-January-2019.jpg',
     },
     "WY": {
         "bird": "Western Meadowlark",
@@ -802,8 +852,10 @@ full_state_dictionary = {
         "pop_num": 578759,
         "land_area_rank": 9,
         "pop_rank": 50,
+        "gov_img": 'https://www.nga.org/wp-content/uploads/2019/01/Wyoming-Mark-Gordon-November-2019.jpg',
     },
 }
+
 
 sorted_land_area = [
     ("Rhode Island", 1034),

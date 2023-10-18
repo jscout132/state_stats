@@ -10,6 +10,10 @@ def home():
     return render_template('index.html', full_state_dictionary = full_state_dictionary)
 
 
+@site.route('/birds')
+def birds():
+    return render_template('birds.html', full_state_dictionary=full_state_dictionary)
+
 @site.route('/state/<state_code>')
 def state(state_code):
     state_data = full_state_dictionary.get(state_code)

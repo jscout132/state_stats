@@ -2,24 +2,24 @@
 
 {% block content %}
 <div class="contianer w-100 mt-5">
-    <div>
+    <div class="contianer">
         <h4 class="text-lg font-sans text-center">{{ state_data.name }}</h4>
         <p>TODO: scrape wiki header paragraph</p>
     </div>
     <div class="flex justify-center">
-        <div class="w-40 bg-amber-200 mx-5">
-            <p>
+        <div class="w-40 bg-dark-green m-5 p-3 rounded-md">
+            <p class="light-blue">
                 {{ state_data.name }} is the {{ state_data.land_area_rank }} biggest state
             </p>
             
         </div>
-        <div class="w-40 bg-amber-200 mx-5">
-            <p>
+        <div class="w-40 bg-dark-green m-5 p-3 rounded-md">
+            <p class="light-blue">
                 {{ state_data.name }} is the {{ state_data.pop_rank }} most populated state
             </p>        
         </div>
     </div>
-    <div class="w-9/12 h-96 bg-slate-400">
+    <div class="container w-9/12 h-96">
         <script>
         function stateMap() {
             const advancedMarkers = document.querySelectorAll("#marker-click-event-example gmp-advanced-marker");
@@ -42,6 +42,15 @@
         <gmp-map id="marker-click-event-example" center="{{ state_data.lat }},{{ state_data.lon }}" zoom="6" map-id="DEMO_MAP_ID">
                 <gmp-advanced-marker position="{{ state_data.lat }},{{ state_data.lon }}" title="{{state_data.capital}}"></gmp-advanced-marker>
         </gmp-map>
+    </div>
+    <div class="container">
+      Gov section
+      <img src="https://www.nga.org/wp-content/uploads/2018/01/Governor-Ivey-2019-Headshot-scaled.jpg" alt="">
+    </div>
+    <div>
+      <p>
+        Governor terms, birthdates, birth states, school, bio paragraphs, and images pulled from: https://www.nga.org/governors/
+      </p>
     </div>
 </div>
 

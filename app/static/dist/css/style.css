@@ -1,4 +1,75 @@
 /* TODO: change background color of table headers */
+/* TODO: find fonts */
+
+/* start branding colors */
+/* start background colors */
+.bg-light-blue {
+    background-color: #F1F5F9;
+}
+
+.bg-light-red {
+    background-color: #FEECEC;
+}
+
+.bg-light-gold {
+    background-color: #F9F6F0;
+}
+
+.bg-light-green {
+    background-color: #f3f7f4;
+}
+
+.bg-dark-blue {
+    background-color: #375C81;
+}
+
+.bg-dark-red {
+    background-color: #AE0909;
+}
+
+.bg-dark-gold {
+    background-color: #836934;
+}
+
+.bg-dark-green {
+    background-color: #496E53;
+}
+/* end background colors */
+
+/* start text colors */
+.light-blue {
+    color: #F1F5F9;
+}
+
+.light-red {
+    color: #FEECEC;
+}
+
+.light-gold {
+    color: #F9F6F0;
+}
+
+.light-green {
+    color: #f3f7f4;
+}
+
+.dark-blue {
+    color: #375C81;
+}
+
+.dark-red {
+    color: #AE0909;
+}
+
+.dark-gold {
+    color: #836934;
+}
+
+.dark-green {
+    color: #496E53;
+}
+/* end text colors */
+/* end branding colors */
 
 .table-style {
     font-family: Arial, Helvetica, sans-serif;
@@ -22,5 +93,8 @@
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #bce2c7;
+}
+
+.bg-map-yellow {
+    background-color: #f4efe4;
 }
