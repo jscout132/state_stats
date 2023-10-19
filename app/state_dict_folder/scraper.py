@@ -48,7 +48,7 @@ def gov_info_scrape():
         if len(clean_term) > 0:
             v.update({'terms':clean_term[0]})
             v.update({'birthdate':clean_term[2]})
-            v.update({'bith_state':clean_term[3]})
+            v.update({'birth_state':clean_term[3]})
             v.update({'school':clean_term[4]})
             v.update({'bio':bio_list})
         else:

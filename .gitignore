@@ -7,4 +7,5 @@ node_modules
 /bin
 /include
 /lib
-.vscode
+.ipynb_checkpoints
+

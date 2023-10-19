@@ -3,7 +3,7 @@ gov_dictionary = {
         "gov_name": "Kay Ivey",
         "terms": "2017",
         "birthdate": "October 15, 1944",
-        "bith_state": "Alabama",
+        "birth_state": "Alabama",
         "school": "University of Auburn",
         "bio": [
             "Growing up in the small town of Camden in Wilcox County, Alabama, and working on her father’s farm taught Kay Ivey to value hard work and living within one’s means. Her parents instilled values of faith, family and community.",
@@ -15,7 +15,7 @@ gov_dictionary = {
         "gov_name": "Mike Dunleavy",
         "terms": "2018",
         "birthdate": "May 5, 1961",
-        "bith_state": "Pennsylvania",
+        "birth_state": "Pennsylvania",
         "school": "Misericordia University; University of Alaska Fairbanks",
         "bio": [
             "Governor Mike Dunleavy arrived in Alaska in 1983 as a young man looking for opportunity, and he found it. His first job was working in a logging camp in Southeast Alaska. Later on, Governor Dunleavy pursued his dream of becoming a teacher. He earned his teacher’s certificate, and then a master of education degree from the University of Alaska Fairbanks. He spent nearly two decades in northwest Arctic communities working as a teacher, principal, and superintendent.",
@@ -27,7 +27,7 @@ gov_dictionary = {
         "gov_name": "Katie Hobbs",
         "terms": "2023",
         "birthdate": "December 28, 1969",
-        "bith_state": "Arizona",
+        "birth_state": "Arizona",
         "school": "Northern Arizona University,  Arizona State University",
         "bio": [
             "Born and raised in Arizona, Governor Hobbs has spent her life exemplifying hard work and public service. After putting herself through college at both NAU and ASU, she began her career as a social worker working with homeless youth and later helped run one of the largest domestic violence shelters in the country. After seeing her fellow Arizonans continue to struggle with little action from the government, Governor Hobbs decided to take matters into her own hands and run for office.",
@@ -39,7 +39,7 @@ gov_dictionary = {
         "gov_name": "Sarah Huckabee Sanders",
         "terms": "2023",
         "birthdate": "August 13, 1982",
-        "bith_state": "Arkansas",
+        "birth_state": "Arkansas",
         "school": "Ouachita Baptist University",
         "bio": [
             "Sarah Huckabee Sanders is the 47th Governor of Arkansas.",
@@ -51,7 +51,7 @@ gov_dictionary = {
         "gov_name": "Gavin Newsom",
         "terms": "2019",
         "birthdate": "October 10, 1967",
-        "bith_state": "California",
+        "birth_state": "California",
         "school": "Santa Clara University",
         "bio": [
             "Gavin Newsom is the Governor of California, former Lieutenant Governor of California, and former Mayor of San Francisco. Governor Newsom’s top priorities for his administration are tackling our state’s affordability crisis, creating inclusive economic growth and opportunity for every child, and standing up for California values — from civil rights, to immigration, environmental protection, access to quality schools at all levels, and justice.",
@@ -62,7 +62,7 @@ gov_dictionary = {
         "gov_name": "Jared Polis",
         "terms": "2019",
         "birthdate": "May 12, 1975",
-        "bith_state": "Colorado",
+        "birth_state": "Colorado",
         "school": "Princeton University",
         "bio": [
             "Governor Jared Polis is an entrepreneur, education leader, public servant, and Colorado native. After launching several successful companies, including one out of his college dorm room, Polis committed himself to making sure other Coloradans had the opportunity to pursue their dreams. Polis founded schools for at-risk students and new immigrants and started nonprofits to help veterans and entrepreneurs.",
@@ -74,7 +74,7 @@ gov_dictionary = {
         "gov_name": "Ned Lamont",
         "terms": "2019",
         "birthdate": "January 3, 1954",
-        "bith_state": "Washington, D.C.",
+        "birth_state": "Washington, D.C.",
         "school": "Harvard University; Yale University",
         "bio": [
             "Ned Lamont was sworn into office as the 89th governor of Connecticut on January 9, 2019. He began his second term on January 4, 2023.",
@@ -86,7 +86,7 @@ gov_dictionary = {
         "gov_name": "John Carney",
         "terms": "2017",
         "birthdate": "May 20, 1956",
-        "bith_state": "Delaware",
+        "birth_state": "Delaware",
         "school": "Dartmouth College; University of Delaware",
         "bio": [
             "Born in Wilmington and raised in Claymont, Governor John Carney has been working for the Delaware people for more than 30 years. Governor Carney took office as Delaware’s 74th Governor in January 2017, focused on making Delaware’s economy more competitive, preparing Delaware’s children to succeed, and building a long-term sustainable financial plan for the State of Delaware. Working with Delawareans across the state, and with members of the General Assembly, he has made progress on each of those priorities. Governor Carney has directed new resources to high-needs schools, partnered with the private sector to drive new job creation, and taken steps to lower healthcare costs for Delaware families, businesses, and taxpayers.",
@@ -97,7 +97,7 @@ gov_dictionary = {
         "gov_name": "Ron DeSantis",
         "terms": "2019",
         "birthdate": "September 14, 1978",
-        "bith_state": "Florida",
+        "birth_state": "Florida",
         "school": "Yale University, Harvard Law School",
         "bio": [
             "Governor Ron DeSantis is the former U.S. Representative for Florida’s Sixth District. A native Floridian with blue-collar roots, Ron worked his way through Yale University, where he graduated with honors and was the captain of the varsity baseball team. He also graduated with honors from Harvard Law School. While at Harvard, he earned a commission in the U.S. Navy as a JAG officer. After active-duty service, Ron served as a federal prosecutor. He was first elected to Congress in 2012."
@@ -107,7 +107,7 @@ gov_dictionary = {
         "gov_name": "Brian Kemp",
         "terms": "2019",
         "birthdate": "November 2, 1963",
-        "bith_state": "Georgia",
+        "birth_state": "Georgia",
         "school": "University of Georgia",
         "bio": [
             "A native of Athens, Georgia, Brian Kemp started his first small business over 35 years ago with a pickup truck and a shovel. His experience as a small business owner has driven his mission to put hardworking Georgians first since taking office as Georgia’s 83rd governor in 2019.",
@@ -119,7 +119,7 @@ gov_dictionary = {
         "gov_name": "Josh Green",
         "terms": "2022",
         "birthdate": "February 11, 1970",
-        "bith_state": "Pennsylvania",
+        "birth_state": "Pennsylvania",
         "school": "Swarthmore College, Pennsylvania State University and the University of Pittsburgh",
         "bio": [
             "Governor Josh Green is a proud husband, father, physician, and Hawaiʻiʻs ninth governor. Raised in Pittsburgh, Pennsylvania, Governor Green received his degree in both biology and anthropology from Swarthmore College and his M.D. from Penn State Milton S. Hershey Medical Center at Pennsylvania State University. After graduating medical school he completed his residency in Family Practice. He was then awarded a National Health Service Corps scholarship and chose a position to practice medicine in the underserved area of Kā’ū on the Big Island of Hawai’i.\xa0",
@@ -131,7 +131,7 @@ gov_dictionary = {
         "gov_name": "Brad Little",
         "terms": "2019",
         "birthdate": "February 15, 1954",
-        "bith_state": "Idaho",
+        "birth_state": "Idaho",
         "school": "University of Idaho",
         "bio": [
             "The people of Idaho elected Brad Little as the state’s 33rd Governor in November 2018. He became Governor on January 7, 2019. Governor Littleis an Emmett native who was raised on his family’s sheep and cattle ranching operation. He graduated from the University of Idaho in 1977 with a Bachelor of Science in Agribusiness, and has worked in the ranching industry for his entire professional life. Governor Little first served in public office in 2001 when he was selected to fill a Senate vacancy. He was then elected to four consecutive terms to the Idaho Senate. During his service as a Senator, Governor Little was elected by his Republican peers during his first full term to serve in Party leadership as Majority Caucus Chair. He then served as Idaho’s 37th Lt. Governor starting on January 6, 2009."
@@ -141,7 +141,7 @@ gov_dictionary = {
         "gov_name": "J. B. Pritzker",
         "terms": "2019",
         "birthdate": "January 19, 1965",
-        "bith_state": "California",
+        "birth_state": "California",
         "school": "Duke University; Northwestern University School of Law",
         "bio": [
             "Governor JB Pritzker was sworn in as the 43rd Governor of Illinois on Jan. 14, 2019. Since taking office, he has accomplished one of the most ambitious and consequential policy agendas in state history.",
@@ -152,7 +152,7 @@ gov_dictionary = {
         "gov_name": "Eric Holcomb",
         "terms": "2017",
         "birthdate": "May 2, 1968",
-        "bith_state": "Indiana",
+        "birth_state": "Indiana",
         "school": "Hanover College",
         "bio": [
             "Governor Eric J. Holcomb is the 51st Governor of Indiana. A lifelong Hoosier, Gov. Holcomb is a veteran of the United States Navy, served as the state’s 51st Lt. Governor, was a trusted advisor to both Gov. Mitch Daniels and Sen. Dan Coats, worked for Congressman John Hostettler and is a former state chairman of the Indiana Republican Party. He was elected governor in November 2016. The governor is a graduate of Pike High School in Indianapolis and Hanover College in southeastern Indiana where he majored in U.S. History with a focus on the American Civil War and the Reconstruction Era. He is a collector of presidential signatures and currently has documents signed by all 44 of our nation’s presidents."
@@ -162,7 +162,7 @@ gov_dictionary = {
         "gov_name": "Kim Reynolds",
         "terms": "2017",
         "birthdate": "August 4, 1959",
-        "bith_state": "Iowa",
+        "birth_state": "Iowa",
         "school": "Iowa State University",
         "bio": [
             "Governor Kim Reynolds is the 43rd governor of Iowa and has the distinction of being the first woman elected to the state’s highest office.",
@@ -174,7 +174,7 @@ gov_dictionary = {
         "gov_name": "Laura Kelly",
         "terms": "2019",
         "birthdate": "January 24, 1950",
-        "bith_state": "New York",
+        "birth_state": "New York",
         "school": "Bradley University; Indiana University",
         "bio": [
             "Governor Laura Kelly grew up in a career military family where she learned the importance of service, integrity, and accountability. She has made it her life’s work to fight for children and families as a four-term state senator and now in her second term as the 48th Governor of the State of Kansas.",
@@ -186,7 +186,7 @@ gov_dictionary = {
         "gov_name": "Andy Beshear",
         "terms": "2019",
         "birthdate": "November 29, 1977",
-        "bith_state": "Kentucky",
+        "birth_state": "Kentucky",
         "school": "Vanderbilt University; University of Virginia School of Law",
         "bio": [
             "Governor Andy Beshear grew up in Fayette, Franklin, and Clark counties and graduated from Henry Clay High School. He is the son of Steve and Jane Beshear, the 61st Governor and first lady. Gov. Beshear graduated magna cum laude from Vanderbilt University and earned his Juris Doctor degree from the University of Virginia School of Law, where he was a Dean’s Scholar. After law school, he worked at an international law firm based in Washington, D.C., and it was during that time that he met his wife, Britainy. Andy and Britainy have two young children, Will and Lila. The family attends Beargrass Christian Church, where both Andy and Britainy serve as deacons, and they volunteer with several local organizations."
@@ -196,7 +196,7 @@ gov_dictionary = {
         "gov_name": "John Bel Edwards",
         "terms": "2016",
         "birthdate": "September 16, 1966",
-        "bith_state": "Louisiana",
+        "birth_state": "Louisiana",
         "school": "U.S. Military Academy at West Point; Louisiana State University Law Center",
         "bio": [
             "Governor John Bel Edwards was born seventh out of eight children to Sheriff Frank Jr. and Dora Jean Edwards. He grew up hunting and fishing in Amite, a rural town in Tangipahoa Parish. He and First Lady Donna Edwards began dating while students at Amite High School. After graduating top of his class, Gov. Edwards attended the United States Military Academy at West Point. As a cadet, he completed Airborne School and served as vice-chairman of the panel that enforces the West Point Honor Code. The governor graduated from West Point in 1988, commissioning as a second lieutenant in the U.S. Army. He served on active duty for 8 years, earning Airborne, Ranger and Jumpmaster status, culminating with command of a rifle company in the 82nd Airborne Division at Fort Bragg, North Carolina.",
@@ -207,7 +207,7 @@ gov_dictionary = {
         "gov_name": "Janet Mills",
         "terms": "2019",
         "birthdate": "December 30, 1947",
-        "bith_state": "Maine",
+        "birth_state": "Maine",
         "school": "University of Massachusetts at Boston, University of Maine School of Law",
         "bio": [
             "Janet Trafton Mills was sworn in as the 75th Governor of Maine on Wednesday, January 2, 2019.",
@@ -219,7 +219,7 @@ gov_dictionary = {
         "gov_name": "Wes Moore",
         "terms": "2023",
         "birthdate": "October 15, 1978",
-        "bith_state": "Maryland",
+        "birth_state": "Maryland",
         "school": "Valley Forge Military College, Johns Hopkins University",
         "bio": [
             "Wes Moore is the 63rd Governor of the state of Maryland. He is Maryland’s first Black Governor in the state’s 246-year history, and is just the third African American elected Governor in the history of the United States.",
@@ -230,7 +230,7 @@ gov_dictionary = {
         "gov_name": "Maura Healey",
         "terms": "2023",
         "birthdate": "February 8, 1971",
-        "bith_state": "Maryland",
+        "birth_state": "Maryland",
         "school": "Harvard University, Northeastern University",
         "bio": [
             "Maura Healey is the 73rd Governor of Massachusetts. She was sworn in on January 5, 2023, becoming the first woman and first openly LGBTQ person elected Governor in Massachusetts history.",
@@ -241,7 +241,7 @@ gov_dictionary = {
         "gov_name": "Gretchen Whitmer",
         "terms": "2019",
         "birthdate": "August 23, 1971",
-        "bith_state": "Michigan",
+        "birth_state": "Michigan",
         "school": "Michigan State University, Michigan State University College of Law",
         "bio": [
             "Governor Gretchen Whitmer is a lifelong Michigander who is focused on getting things done that will make a real difference in people’s lives. As governor, she has signed over 1,000 bipartisan bills and four balanced, bipartisan budgets to deliver on the kitchen-table issues, grow the economy, and create good-paying jobs in every region of the state.",
@@ -253,7 +253,7 @@ gov_dictionary = {
         "gov_name": "Tim Walz",
         "terms": "2019",
         "birthdate": "April 6, 1964",
-        "bith_state": "Nebraska",
+        "birth_state": "Nebraska",
         "school": "Unlisted",
         "bio": [
             "Tim Walz is Minnesota’s 41st Governor. His career has been defined by public service, from serving our country in the military to serving our students as a high-school teacher and football coach to serving our state in Congress.",
@@ -264,7 +264,7 @@ gov_dictionary = {
         "gov_name": "Tate Reeves",
         "terms": "2020",
         "birthdate": "June 5, 1974",
-        "bith_state": "Mississippi",
+        "birth_state": "Mississippi",
         "school": "Millsaps College",
         "bio": [
             "As the 65th Governor of Mississippi, Tate Reeves continues to build on his strong record as a conservative leader who fights to guard taxpayers’ dollars, improve educational opportunity, and grow new careers so that our state’s best and brightest can raise their families and thrive here at home. In his inaugural address, Governor Reeves promised that this would be an administration for all Mississippi. He committed to a mission to create a climate where good careers are plentiful with every Mississippian prepared to pursue them, as he has every single day of his time serving our state. Upon taking office, Governor Reeves inherited a crumbling corrections department and a scandal-plagued human services department. He took immediate action to stem the existing issues and begin the process of rebuilding, shedding light on the issues and installing the best leadership to help him turn the departments around to work for the people of Mississippi."
@@ -274,7 +274,7 @@ gov_dictionary = {
         "gov_name": "Mike Parson",
         "terms": "2018",
         "birthdate": "September 17, 1955",
-        "bith_state": "Missouri",
+        "birth_state": "Missouri",
         "school": "University of Maryland, University of Hawaii",
         "bio": [
             "Michael L. Parson was sworn in as Missouri’s 57th Governor on June 1, 2018. Governor Parson came into the role of Governor with a lifelong commitment to serving others and over 30 years of experience in public service. He previously served as the 47th Lieutenant Governor of Missouri from 2017–2018.",
@@ -286,7 +286,7 @@ gov_dictionary = {
         "gov_name": "Greg Gianforte",
         "terms": "2021",
         "birthdate": "April 17, 1961",
-        "bith_state": "California",
+        "birth_state": "California",
         "school": "Unlisted",
         "bio": [
             "Montanans elected Greg Gianforte as their state’s 25th governor on November 3, 2020. Gianforte received more votes than any candidate for governor in Montana history and won with the largest margin for a first-term governor since 1920. Gianforte spent his entire career focusing on creating jobs and opportunities. He founded five different startup companies. He’s worked to improve Montana’s economy through the “Better Montana Jobs” project. He also launched scholarship programs to help low-income students and veterans pursue the education and training they need to start a career in Montana.\xa0Married since 1986, Greg and Susan Gianforte raised their four children in Bozeman hunting, fishing, rafting, climbing, skiing and backpacking on Montana’s public lands."
@@ -296,7 +296,7 @@ gov_dictionary = {
         "gov_name": "Jim Pillen",
         "terms": "2023",
         "birthdate": "December 31, 1955",
-        "bith_state": "Nebraska",
+        "birth_state": "Nebraska",
         "school": "University of Nebraska, Lincoln | Kansas State University",
         "bio": [
             "Governor Jim Pillen was sworn in as Nebraska’s 41st Governor on January 5, 2023.",
@@ -308,7 +308,7 @@ gov_dictionary = {
         "gov_name": "Joe Lombardo",
         "terms": "2023",
         "birthdate": "November 8, 1962",
-        "bith_state": "Other",
+        "birth_state": "Other",
         "school": "University of Nevada, Las Vegas",
         "bio": [
             "Joe Lombardo began his service to others in the United States Army, serving in the Army, National Guard, and Army. After his service to his country, Joe dedicated himself to protecting our communities – serving in law enforcement over the last 30 years. Governor Lombardo quickly rose through the ranks of the Las Vegas Metropolitan Police Department (LVMPD) and, after 26 years on the force, was elected as Sheriff of Clark County, Nevada, in 2014. ",
@@ -389,7 +389,7 @@ gov_dictionary = {
         "gov_name": "Mike DeWine",
         "terms": "2019",
         "birthdate": "January 5, 1947",
-        "bith_state": "Ohio",
+        "birth_state": "Ohio",
         "school": "Miami University, Ohio Northern University",
         "bio": [
             "On November 6, 2018, Mike DeWine was elected to serve as the 70th Governor of the State of Ohio. Gov. DeWine has had a long and distinguished career in public service, focusing on protecting Ohio children and families. He was previously the 50th\xa0Attorney General of Ohio and has previously been elected to serve as Greene County Prosecutor, Ohio State Senator, U.S. Congressman, Ohio Lt. Governor, U.S. Senator.",
@@ -400,7 +400,7 @@ gov_dictionary = {
         "gov_name": "Kevin Stitt",
         "terms": "2019",
         "birthdate": "December 28, 1972",
-        "bith_state": "Florida",
+        "birth_state": "Florida",
         "school": "Oklahoma State University",
         "bio": [
             "J. Kevin Stitt is the 28th governor of Oklahoma. Gov. Stitt is an entrepreneur and businessman who founded Gateway in Tulsa, Oklahoma, in 2000. Starting Gateway with only $1,000 and a computer, he grew his business into one of the top 20 mortgage lenders and servicers in the nation, operating in more than 40 states and servicing more than $20 billion in residential mortgages. Stitt led Gateway through a merger with Farmers Exchange Bank in 2018 and formed Gateway First Bank, which is headquartered in Jenks, Oklahoma, and operates more than 160 mortgage centers across the country and employs more than 1,400 people.",
@@ -411,7 +411,7 @@ gov_dictionary = {
         "gov_name": "Tina Kotek",
         "terms": "2023",
         "birthdate": "September 30, 1966",
-        "bith_state": "Pennsylvania",
+        "birth_state": "Pennsylvania",
         "school": "University of Oregon, University of Washington",
         "bio": [
             "Governor Tina Kotek is the daughter of proud first-generation Americans who believed in hard work, being informed citizens, and encouraging their children to follow their dreams.",
@@ -423,7 +423,7 @@ gov_dictionary = {
         "gov_name": "Josh Shapiro",
         "terms": "2023",
         "birthdate": "June 20, 1973",
-        "bith_state": "Missouri",
+        "birth_state": "Missouri",
         "school": "University of Rochester, Georgetown University Law Center",
         "bio": [
             "Governor Josh Shapiro grew up in Pennsylvania, watching his parents serve their community — his father was a pediatrician, and his mother was an educator. Their example inspired Josh to enter public service.",
@@ -471,7 +471,7 @@ gov_dictionary = {
         "gov_name": "Bill Lee",
         "terms": "2019",
         "birthdate": "October 9, 1959",
-        "bith_state": "Tennessee",
+        "birth_state": "Tennessee",
         "school": "Auburn University",
         "bio": [
             "Bill Lee is a seventh-generation Tennessean and the 50th Governor of Tennessee. He was raised in Franklin, where he still resides today with his wife, Maria, on his family’s farm. He’s the proud father of four adult children (Jessica, twin sons Jacob and Caleb, and Sarah Kate) and eight grandchildren.",
@@ -482,7 +482,7 @@ gov_dictionary = {
         "gov_name": "Greg Abbott",
         "terms": "2015",
         "birthdate": "November 13, 1957",
-        "bith_state": "Texas",
+        "birth_state": "Texas",
         "school": "University of Texas at Austin, Vanderbilt University Law School",
         "bio": [
             "Greg Abbott is the 48th Governor of the State of Texas. Before his election in 2014, Greg Abbott was the 50th and longest-serving Attorney General of Texas, where he earned a national reputation for defending religious liberty and protecting Texas communities and children. He also previously served as a Justice on the Texas Supreme Court and as a State District Judge in Harris County.",
@@ -494,7 +494,7 @@ gov_dictionary = {
         "gov_name": "Spencer Cox",
         "terms": "2021",
         "birthdate": "July 11, 1975",
-        "bith_state": "Utah",
+        "birth_state": "Utah",
         "school": "Snow College, Utah State University, Washington and Lee University School of Law",
         "bio": [
             "Gov. Spencer J. Cox is a husband, father, farmer, recovering attorney, and Utah’s 18th governor.",
@@ -506,7 +506,7 @@ gov_dictionary = {
         "gov_name": "Phil Scott",
         "terms": "2017",
         "birthdate": "August 4, 1958",
-        "bith_state": "Vermont",
+        "birth_state": "Vermont",
         "school": "University of Vermont",
         "bio": [
             "Phil Scott became the 82nd Governor of Vermont in January 2017. Previously, he was elected and served three terms (2011-2017) as Vermont’s 79th Lieutenant Governor. Prior to that role, he was elected to the Vermont Senate for five terms, representing Washington County. During his 10-year service in the Senate, he was Vice Chair of the Transportation Committee and Chair of the Institutions Committee.",
@@ -517,7 +517,7 @@ gov_dictionary = {
         "gov_name": "Glenn Youngkin",
         "terms": "2022",
         "birthdate": "December 9, 1966",
-        "bith_state": "Virginia",
+        "birth_state": "Virginia",
         "school": "Unlisted",
         "bio": [
             "Glenn Youngkin is a homegrown Virginian who grew up in Richmond and Virginia Beach. As his father changed jobs, Governor Youngkin learned that moving around didn’t equal moving up – nothing was handed to him. From his first job washing dishes and frying eggs at a diner in Virginia Beach, he embraced hard work and responsibility to help his family when his father lost his job. His determination to succeed earned him multiple high school basketball honors in Virginia and an athletic scholarship to college.",
@@ -529,7 +529,7 @@ gov_dictionary = {
         "gov_name": "Jay Inslee",
         "terms": "2013",
         "birthdate": "February 9, 1951",
-        "bith_state": "Washington",
+        "birth_state": "Washington",
         "school": "University of Washington; Willamette University",
         "bio": [
             "Jay Inslee is a fifth-generation Washingtonian who has lived and worked in urban and rural communities on both sides of the state. Governor Inslee worked his way through college and graduated from the University of Washington with a degree in economics before earning his law degree at Willamette University. He and his wife, Trudi, then moved to Selah, a small town near Yakima where they raised their three sons. Jay worked as an attorney and prosecutor.",
@@ -551,7 +551,7 @@ gov_dictionary = {
         "gov_name": "Tony Evers",
         "terms": "2019",
         "birthdate": "November 5, 1951",
-        "bith_state": "Wisconsin",
+        "birth_state": "Wisconsin",
         "school": "University of Wisconsin-Madison",
         "bio": [
             "On November 6, 2018, the people of Wisconsin voted Tony Evers the 46th governor of Wisconsin. Prior to his election, he served as the Wisconsin State Superintendent of Public Instruction winning statewide elections in 2009, 2013, and 2017. With over three decades of public education experience, Governor Evers has dedicated his life to fighting for Wisconsin’s kids and serving the people of Wisconsin.",
@@ -562,7 +562,7 @@ gov_dictionary = {
         "gov_name": "Mark Gordon",
         "terms": "2019",
         "birthdate": "March 14, 1957",
-        "bith_state": "New York",
+        "birth_state": "New York",
         "school": "Middlebury College",
         "bio": [
             "Mark Gordon grew up on the family ranch in Wyoming where he learned the values of hard work and integrity and the importance of working together. As Governor, he brings those values to the table, maintaining his commitment to a Wyoming where its citizens can pursue their dreams while the state retains its unique character. He is a strong believer that Wyoming must chart its own course, and a steadfast defender of its interests to do so.",

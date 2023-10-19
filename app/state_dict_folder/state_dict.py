@@ -73,7 +73,7 @@ full_state_dictionary = {
         "gov_img": 'https://www.nga.org/wp-content/uploads/2023/01/GovSHSOfficialHeadshot-2-scaled-1.jpg',
     },
     "CA": {
-        "bird": "California Valley Quail",
+        "bird": "California Quail",
         "capital": "Sacramento",
         "flower": "California Poppy",
         "governor": "Gavin Newsom",
@@ -124,7 +124,7 @@ full_state_dictionary = {
         "gov_img": 'https://www.nga.org/wp-content/uploads/2019/02/Lamont_400x400.png',
     },
     "DE": {
-        "bird": "Blue Hen Chicken",
+        "bird": "Red Junglefowl (Domestic type)",
         "capital": "Dover",
         "flower": "Peach Blossom",
         "governor": "John Carney",
@@ -141,7 +141,7 @@ full_state_dictionary = {
         "gov_img": 'https://www.nga.org/wp-content/uploads/2018/03/Governor-Carney-768x768.jpg',
     },
     "FL": {
-        "bird": "Mockingbird",
+        "bird": "Northern Mockingbird",
         "capital": "Tallahassee",
         "flower": "Orange Blossom",
         "governor": "Ron DeSantis",
@@ -175,7 +175,7 @@ full_state_dictionary = {
         "gov_img": 'https://www.nga.org/wp-content/uploads/2019/01/Georgia-Brian-Kemp-2019.jpg',
     },
     "HI": {
-        "bird": "Nene",
+        "bird": "Hawaiian Goose",
         "capital": "Honolulu",
         "flower": "Pua Aloalo",
         "governor": "Josh Green",
@@ -209,7 +209,7 @@ full_state_dictionary = {
         "gov_img": 'https://www.nga.org/wp-content/uploads/2019/09/governor_little_square.jpg',
     },
     "IL": {
-        "bird": "Cardinal",
+        "bird": "Northern Cardinal",
         "capital": "Springfield",
         "flower": "Violet",
         "governor": "J. B. Pritzker",
@@ -226,7 +226,7 @@ full_state_dictionary = {
         "gov_img": 'https://www.nga.org/wp-content/uploads/2019/09/governor-pritzker-headshot_feb2023.jpg',
     },
     "IN": {
-        "bird": "Cardinal",
+        "bird": "Northern Cardinal",
         "capital": "Indianapolis",
         "flower": "Peony",
         "governor": "Eric Holcomb",
@@ -243,7 +243,7 @@ full_state_dictionary = {
         "gov_img": 'https://www.nga.org/wp-content/uploads/2019/09/Governor-Holcomb-Headshot-2023_square.jpg',
     },
     "IA": {
-        "bird": "Eastern Goldfinch",
+        "bird": "American Goldfinch",
         "capital": "Des Moines",
         "flower": "Wild Prairie Rose",
         "governor": "Kim Reynolds",
@@ -277,7 +277,7 @@ full_state_dictionary = {
         "gov_img": 'https://www.nga.org/wp-content/uploads/2019/09/kelly_square.jpg',
     },
     "KY": {
-        "bird": "Cardinal",
+        "bird": "Northern Cardinal",
         "capital": "Frankfort",
         "flower": "Goldenrod",
         "governor": "Andy Beshear",
@@ -294,7 +294,7 @@ full_state_dictionary = {
         "gov_img": 'https://www.nga.org/wp-content/uploads/2019/12/Governor-Beshear_Official-Picture_square-scaled.jpg',
     },
     "LA": {
-        "bird": "Eastern Brown Pelican",
+        "bird": "Brown Pelican (Atlantic)",
         "capital": "Baton Rouge",
         "flower": "Magnolia",
         "governor": "John Bel Edwards",
@@ -311,7 +311,7 @@ full_state_dictionary = {
         "gov_img": 'https://www.nga.org/wp-content/uploads/2018/06/John-Bel-Edwards.jpg',
     },
     "ME": {
-        "bird": "Chickadee",
+        "bird": "Black-capped Chickadee",
         "capital": "Augusta",
         "flower": "White pine cone and tassel",
         "governor": "Janet Mills",
@@ -345,7 +345,7 @@ full_state_dictionary = {
         "gov_img": 'https://www.nga.org/wp-content/uploads/2023/01/governor-wes-moore-official-portrait_square.jpg',
     },
     "MA": {
-        "bird": "Chickadee",
+        "bird": "Black-capped Chickadee",
         "capital": "Boston",
         "flower": "Trailing-Arbutus (Mayflower)",
         "governor": "Maura Healey",
@@ -362,7 +362,7 @@ full_state_dictionary = {
         "gov_img": 'https://www.nga.org/wp-content/uploads/2023/01/Maura_Healey_square.jpg',
     },
     "MI": {
-        "bird": "Robin",
+        "bird": "American Robin",
         "capital": "Lansing",
         "flower": "Apple Blossom",
         "governor": "Gretchen Whitmer",
@@ -396,7 +396,7 @@ full_state_dictionary = {
         "gov_img": 'https://www.nga.org/wp-content/uploads/2019/02/Walz_400x400.jpg',
     },
     "MS": {
-        "bird": "Mockingbird",
+        "bird": "Northern Mockingbird",
         "capital": "Jackson",
         "flower": "Magnolia",
         "governor": "Tate Reeves",
@@ -413,7 +413,7 @@ full_state_dictionary = {
         "gov_img": 'https://www.nga.org/wp-content/uploads/2020/01/headshot-governor-tate-reeves_R_square.jpg',
     },
     "MO": {
-        "bird": "Bluebird",
+        "bird": "Eastern Bluebird",
         "capital": "Jefferson City",
         "flower": "White Hawthorn Blossom",
         "governor": "Mike Parson",
@@ -498,7 +498,7 @@ full_state_dictionary = {
         "gov_img": 'https://www.nga.org/wp-content/uploads/2019/09/GOV_SUNUNU_OFFICIAL_PHOTO_square.jpg',
     },
     "NJ": {
-        "bird": "Eastern Goldfinch",
+        "bird": "American Goldfinch",
         "capital": "Trenton",
         "flower": "Violet",
         "governor": "Phil Murphy",
@@ -515,7 +515,7 @@ full_state_dictionary = {
         "gov_img": 'https://www.nga.org/wp-content/uploads/2019/09/GovMurphy_April2023.jpg',
     },
     "NM": {
-        "bird": "Roadrunner",
+        "bird": "Greater Roadrunner",
         "capital": "Santa Fe",
         "flower": "Yucca flower",
         "governor": "Michelle Lujan Grisham",
@@ -549,7 +549,7 @@ full_state_dictionary = {
         "gov_img": 'https://www.nga.org/wp-content/uploads/2021/08/GovernorHochul.jpg',
     },
     "NC": {
-        "bird": "Cardinal",
+        "bird": "Northern Cardinal",
         "capital": "Raleigh",
         "flower": "American Dogwood",
         "governor": "Roy Cooper",
@@ -583,7 +583,7 @@ full_state_dictionary = {
         "gov_img": 'https://www.nga.org/wp-content/uploads/2018/06/G0v_Burgum-NorthDakota.jpg',
     },
     "OH": {
-        "bird": "Cardinal",
+        "bird": "Northern Cardinal",
         "capital": "Columbus",
         "flower": "Scarlet Carnation",
         "governor": "Mike DeWine",
@@ -651,7 +651,7 @@ full_state_dictionary = {
         "gov_img": 'https://www.nga.org/wp-content/uploads/2023/01/JoshShapiroHeadshots-1.jpg',
     },
     "RI": {
-        "bird": "Rhode Island Red Hen",
+        "bird": "Red Junglefowl (Domestic type)",
         "capital": "Providence",
         "flower": "Common Blue Violet",
         "governor": "Dan McKee",
@@ -702,7 +702,7 @@ full_state_dictionary = {
         "gov_img": 'https://www.nga.org/wp-content/uploads/2019/04/KNpic.jpg',
     },
     "TN": {
-        "bird": "Mockingbird",
+        "bird": "Northern Mockingbird",
         "capital": "Nashville",
         "flower": "Iris",
         "governor": "Bill Lee",
@@ -719,7 +719,7 @@ full_state_dictionary = {
         "gov_img": 'https://www.nga.org/wp-content/uploads/2019/09/governor_lee_square.jpg',
     },
     "TX": {
-        "bird": "Mockingbird",
+        "bird": "Northern Mockingbird",
         "capital": "Austin",
         "flower": "Bluebonnet",
         "governor": "Greg Abbott",
@@ -770,7 +770,7 @@ full_state_dictionary = {
         "gov_img": 'https://www.nga.org/wp-content/uploads/2019/02/Vermont-Phil-Scott-November-2018.jpg',
     },
     "VA": {
-        "bird": "Cardinal",
+        "bird": "Northern Cardinal",
         "capital": "Richmond",
         "flower": "American Dogwood",
         "governor": "Glenn Youngkin",
@@ -787,7 +787,7 @@ full_state_dictionary = {
         "gov_img": 'https://www.nga.org/wp-content/uploads/2022/01/Governor-Glenn-Youngkin-Official-photo2022.jpg',
     },
     "WA": {
-        "bird": "Willow Goldfinch",
+        "bird": "American Goldfinch",
         "capital": "Olympia",
         "flower": "Coast Rhododendron",
         "governor": "Jay Inslee",
@@ -804,7 +804,7 @@ full_state_dictionary = {
         "gov_img": 'https://www.nga.org/wp-content/uploads/2019/09/Gov_Inslee_1_8_20_HighContrast_square.jpg',
     },
     "WV": {
-        "bird": "Cardinal",
+        "bird": "Northern Cardinal",
         "capital": "Charleston",
         "flower": "Rhododendron",
         "governor": "Jim Justice",
@@ -821,7 +821,7 @@ full_state_dictionary = {
         "gov_img": 'https://www.nga.org/wp-content/uploads/2019/02/West-Virginia-Jim-Justice-February-2019.jpg',
     },
     "WI": {
-        "bird": "Robin",
+        "bird": "American Robin",
         "capital": "Madison",
         "flower": "Wood Violet",
         "governor": "Tony Evers",
