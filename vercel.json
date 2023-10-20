@@ -8,7 +8,7 @@
     ],
     "routes": [
         {
-            "src": "/state_stats/(.*)",
+            "src": "(.*)",
             "dest": "/state_stats/app/__init__.py"
         }
     ]
