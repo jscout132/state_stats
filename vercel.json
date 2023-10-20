@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
         {
-            "src": "*.py",
+            "src": "/state_stats/app/__init__.py",
             "use": "@vercel/python"
         }
     ],
     "routes": [
         {
-            "src": "/state_stats/(.*)",
-            "dest": "__init__.py"
+            "src": "/(.*)",
+            "dest": "/"
         }
     ]
   }
