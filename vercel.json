@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
         {
-            "src": "/state_stats/app/__init__.py",
+            "src": "/state_stats/*.py",
             "use": "@vercel/python"
         }
     ],
