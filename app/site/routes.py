@@ -1,4 +1,10 @@
 from flask import Blueprint, render_template, redirect
+# import sys
+# import os
+
+
+# sys.path.append("/app")
+
 
 from ..state_dict_folder.state_dict import full_state_dictionary, sorted_pop, sorted_land_area
 from ..state_dict_folder.gov_dict import gov_dictionary
@@ -29,6 +35,7 @@ def state(state_code):
                                sorted_land_area=sorted_land_area,
                                bird_data=bird_data)
     else:
+        # TODO build out 404 functionality
         return render_template('404.html')
             
 

@@ -1,4 +1,9 @@
+import os
 import requests
+import sys
+
+sys.path.append("../state_stats")
+from config import bird_api
 
 from state_dict import full_state_dictionary
 
@@ -33,7 +38,7 @@ class BirdDictionary:
 
     def find_bird_info(self):
         payload = {}
-        headers = {"X-eBirdApiToken": "if3r105uacv7"}
+        headers = {"X-eBirdApiToken": bird_api}
         for k,v in bird_dict.items():
             species_url = f"https://api.ebird.org/v2/data/obs/US-{k}/recent/{v['species_code']}/?back=1"
             responses = requests.request("GET", species_url, headers=headers, data=payload).json()
@@ -49,7 +54,7 @@ class BirdDictionary:
                     v['loc_dict'].update({response['locId']:{'lat':response['lat'],'lon':response['lng']}},)   
                     v['bird_count'] += 0
             v['loc_count'] = len(v['loc_dict']) 
-        print(bird_dict)
+        return bird_dict
             
     def create_bird_dict(self):
         with open('app/state_dict_folder/ebird_dict.py','w') as file:
