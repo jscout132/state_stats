@@ -8,8 +8,8 @@
     ],
     "routes": [
         {
-            "src": "(.*)",
-            "dest": "__init__.py"
+            "src": "/state_stats/(.*)",
+            "dest": "/state_stats/app/__init__.py"
         }
     ]
   }
